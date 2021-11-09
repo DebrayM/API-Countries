@@ -3,6 +3,8 @@
 ## Objectif
 Vous devez réaliser un moteur de recherche de pays avec autocomplétion et afficher quelques informations sur le pays choisi.
 
+Une vidéo vous montre le résultat de l'application.
+
 ## Informations
 
 ### URL API
@@ -27,3 +29,7 @@ Les informations à afficher sur le pays sont :
 * Drapeau
 
 > En cas de problème, afficher un message d'erreur.
+
+## Résultat
+
+Stocker l'ensemble de vos codes soit sur un dépôt GIT ou sur CodePen au choix.
