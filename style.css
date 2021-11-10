@@ -1,0 +1,28 @@
+
+[data-theme="dark"] {
+    --gradient-one: rgba(245, 107, 244, 0.79);
+    --gradient-two: rgba(247, 82, 96, 0.79);
+    --bg-color: #21232f;
+  }
+
+body{
+  background-color: var(--bg-color);
+  color:white;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 100px 0;
+  }
+  
+  .container h1 {
+    font-size: 72px;
+    background: linear-gradient(
+      to right,
+      var(--gradient-one) 0%,
+      var(--gradient-two) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 350ms ease-in-out;
+  }
